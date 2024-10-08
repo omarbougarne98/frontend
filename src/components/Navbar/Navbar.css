@@ -1,0 +1,24 @@
+
+.navbar {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid blue;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-list li a:hover {
+  color: lightgray;
+}

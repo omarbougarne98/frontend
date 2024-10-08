@@ -1,0 +1,24 @@
+/* Weeknav.css */
+.weeknav {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid blue;
+}
+
+.weeknav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.weeknav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.weeknav-list li a:hover {
+  color: lightgray;
+}
